@@ -28,7 +28,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: productcatalogservice
+        image: DOCKER_IMAGE_NAME
         ports:
         - containerPort: 3550
         env:
